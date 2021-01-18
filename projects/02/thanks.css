@@ -1,0 +1,9 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    color: #FDFFFC;
+    background-color: #011627;
+    text-align: center;
+    margin-left: auto;
+    border: 40px solid #2ec486;
+    border-top: #011627;
+}

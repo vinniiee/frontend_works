@@ -1,0 +1,38 @@
+body{
+  background-color: rgba(69, 215, 247,.50);
+}
+h1{
+  border: thin solid black;
+}
+h1+p{
+  background-color: #f1f18a;
+}
+h2{
+  color: purple;
+}
+
+.feedback{
+  background-color: blue;
+  border: 4px dashed yellow;
+}
+
+#fb{
+  background-color: #f1f18a;
+}
+
+input{
+  border: 2px double #ab1f1f;
+}
+
+#one{
+  color: purple;
+  text-decoration: overline;
+}
+
+a{
+  color: blue;
+}
+
+a:visited{
+  color: red;
+}

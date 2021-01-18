@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=" " dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+  </head>
+  <body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password and Email are required</p>
+
+    <form action="D:\fullstack_udemy_demo_project\HTML_LVL_1\thank_you_page.html" method="get">
+
+    <label for="fn">First Name:</label>
+    <input id="fn" type="text" name="FN" value="" required>
+
+    <label for="ln">Last Name:</label>
+    <input id="ln" type="text" name="LN" value="" required>
+
+    <p></p>
+
+    <label for="id">Email:</label>
+    <input id="id" type="email" name="eid" value="" required>
+
+    <label for="passwd">Password:</label>
+    <input id="passwd" type="password" name="passwd" value="" required>
+
+    <p>Are you over the age of 18?</p>
+
+    <label for="Yes">Yes:</label>
+    <input id="Yes" type="radio" name="adult" value="yes" required>
+
+    <label for="No">No:</label>
+    <input id="No" type="radio" name="adult" value="no" required>
+    <p>Do you have a Credit Card or PayPal?</p>
+    <select name="payment">
+      <option value="credit_card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+    </select>
+
+
+    <input type="submit" name="" value="Sign Up">
+
+    </form>
+    <form action="D:\fullstack_udemy_demo_project\HTML_LVL_1\thanking_page.html"method="get">
+      <p>Any oyher Feedback? Please feel free to share with us below:</p>
+      <textarea name="mytxt" rows="8" cols="80"></textarea>
+      <input type="submit" name="suggestion" value="Submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body{
+  background: url(cat.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero{
+  color: #fff;
+  margin-top: 20%;
+  text-align: center;
+  font-size: 120px;
+  font-family: 'Revalia', cursive;
+  letter-spacing: -.05em;
+
+}
+
+.ima{
+  margin:auto;
+  height: 400px;
+  width: 250px;
+  margin-bottom: 10vh;
+}
+
+.blockquote-footer{
+  font-size: .60em;
+  color: #fff;
+}
+span{
+  font-size: 1.35em;
+}
+/* #a{ */
+  /* font-size: 1.25em; */
+/* } */
